@@ -1,0 +1,102 @@
+/* ************ HOME */
+html {
+    height: 100%;
+    font-size: 2.4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    height: 100%;
+}
+
+header {
+    background-color: #ffe888;
+    height: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+header > img {
+    height: 80%;
+}
+
+header > p {
+    max-width: 65%;
+}
+
+main {
+    display: flex;
+    height: 60%;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 20%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer > div {
+    text-align: center;
+}
+
+nav {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav > a {
+    margin-top: 7vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+article {
+    height: 100%;
+    width: 80%;
+    font-size: 0.8rem;
+    overflow: hidden;
+}
+
+article > h3 {
+    margin: 1vh;
+    text-align: center;
+}
+
+#myCarousel {
+    width: 960px;
+    height: 639px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner {
+    width: 960px;
+    height: 639px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ************ GALLERY */
+#gallery {
+    padding: 30px;
+}
+
+/* ************ OFFER */
+
+/* ************ CONTACT */
+
+a.tilelink {
+    color: black;
+    text-decoration: none;
+}
